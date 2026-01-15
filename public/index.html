@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Live-Sync Classroom</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Live-Sync Classroom</h1>
+  <p>Messages appear instantly for all users</p>
+
+  <input id="message" placeholder="Type a note or poll answer..." />
+  <button onclick="sendMessage()">Send</button>
+
+  <ul id="wall"></ul>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
