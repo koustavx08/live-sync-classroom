@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 2rem;
+}
+
+input {
+  padding: 0.5rem;
+  width: 260px;
+}
+
+button {
+  padding: 0.5rem;
+  margin-left: 6px;
+}
+
+ul {
+  list-style: none;
+  margin-top: 1.5rem;
+  padding: 0;
+}
+
+li {
+  background: #020617;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  width: 300px;
+  border-radius: 6px;
+}
